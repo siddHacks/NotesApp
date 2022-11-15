@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&family=Lato:ital,wght@1,700&family=Nunito+Sans:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif; 
+  
+}
+body{
+    background-color: rgb(45, 40, 37);
+}
+.wrapper{
+    margin: 50px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, 265px);
+}
+.wrapper li{
+    height: 250px;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 20px 20px;
+}
