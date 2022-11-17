@@ -8,14 +8,36 @@
     <link rel="stylesheet" href="notes.css">
     <link rel="stylesheet"
         href="https://w7.pngwing.com/pngs/68/239/png-transparent-number-computer-icons-plus-miscellaneous-game-plus.png">
+         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- using the unicon icon for designing -->
     <title>NotesApp</title>
 
 </head>
 
 <body>
+    <div class="popup-box">
+        <div class="popup">
+            <div class="content">
+                <header>
+                    <p>Add a new Note</p>
+                    <i class="uil uil-times"></i>
+                </header>
+                <form action="#">
+                    <div class="row tittle">
+                        <label>Tittle</label>
+                        <input type="text">
+                    </div>
+                    <div class="row description">
+                        <label>Description</label>
+                        <textarea></textarea>
+                    </div>
+                    <button>Add note</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <div class="wrapper">
         <li class="add-box">
-            <div class="icon"> <i class="uil uil-plus">+</i></div>
+            <div class="icon"><i class="uil uil-plus"><!-- plus icon--></i> </div>
             <p>Add new note</p>
         </li>
         <li class="note">
@@ -28,6 +50,10 @@
                 <span>November 15,2022</span>
                 <div class="settings">
                     <i class="uil uil-ellipsis-h"></i>
+                    <ul class="menu">
+                        <li> <i class="uil uil-pen"></i>Edit </li>
+                        <li> <i class="uil uil-trash"></i>Delete</li>
+                    </ul>
                 </div>
             </div>
         </li>
@@ -40,7 +66,7 @@
             <div class="bottom-content">
                 <span>November 15,2022</span>
                 <div class="settings">
-                    <i class="uil uil-ellipsis-h"></i>
+                     <i class="uil uil-ellipsis-h"></i>  <!--ellipse icon "..." -->
                 </div>
             </div>
         </li>
@@ -84,7 +110,7 @@
             </div>
         </li>
     </div>
-
+  <script src="notes.js"></script>
 </body>
 
 </html>
