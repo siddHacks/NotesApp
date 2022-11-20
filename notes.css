@@ -6,7 +6,9 @@
     font-family: 'Kanit', sans-serif; 
 }
 body{
-    background-color: rgb(176, 82, 23);
+    background-image:url("https://picsum.photos/1540/780/?blur=1");
+    background-color: rgba(176, 82, 23, 0.318);
+    background-repeat: no-repeat;
 }
 
 .wrapper{
